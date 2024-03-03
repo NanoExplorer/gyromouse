@@ -95,7 +95,7 @@ jobs:
       #  run: |
       #    cp -f target/vcpkg/installed/x64-linux/*/lib/libSDL2d.a target/vcpkg/installed/x64-linux/lib/libSDL2.a
       #    cp -f target/vcpkg/installed/x64-linux/*/lib/libSDL2maind.a target/vcpkg/installed/x64-linux/lib/libSDL2main.a
-      #  continue-on-error: true
+      #  continue-on-error: true a
 
       - name: 🔨 Build gyromouse
         uses: actions-rs/cargo@v1
